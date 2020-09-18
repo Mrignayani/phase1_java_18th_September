@@ -1,0 +1,11 @@
+package eg;
+
+public class Demo1 {
+
+	public static void main(String arg[]) {
+		StringBuffer sb = new StringBuffer("hello");
+		System.out.println(sb);
+		sb.append(" hey").append("Java");
+		System.out.println(sb);
+	}
+}

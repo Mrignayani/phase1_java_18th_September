@@ -1,0 +1,22 @@
+package eg1;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Demo1 {
+
+	public static void main(String arg[]) {
+		Set<String> hs = new HashSet();
+		hs.add("Hello");
+		hs.add("Hello");
+		hs.add("java");
+		hs.add("jse");
+		hs.add("jme");
+		hs.add(null);
+		hs.add(null);
+		hs.add("Spring");
+		System.out.println(hs);
+		
+	}
+	
+}
